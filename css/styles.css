@@ -17,6 +17,10 @@ p {
   margin: 0 0 50px;
   }
 
+a {
+  text-decoration: none;
+  }
+
 .mali-heading {
   color: #808080;
   font-size: 2.5rem;
