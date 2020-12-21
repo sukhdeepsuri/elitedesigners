@@ -192,6 +192,10 @@ a {
   margin-bottom: 10px;
 }
 
+..form-control::placeholder {
+  color: #bababa;
+}
+
 /* Footer Section */
 #footer-section {
   padding: 20px;
