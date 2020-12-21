@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Elite Designers</title>
+  <title>My Website</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -23,18 +23,18 @@
 </head>
 
 <body>
-  <!-- Nav Bar -->
 
+  <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light mynavbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"> <img src="images/Logopng.png" alt="logo-img" height="40px"> </a>
+      <a class="navbar-brand" href="#"> <img src="images/logopng.png" alt="logo-img" height="40px"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Panipuri-Machines-Carousel">Products</a>
@@ -47,29 +47,31 @@
     </div>
   </nav>
 
+  <!-- Hero Area -->
   <section id="hero-area">
     <div class="Panipuri-Title">
-      <h1 class="heading">Automatic</h1>
+      <h1 class="panipuri-small-headings">Automatic</h1>
       <h1 class="panipuri-waterfilling">Panipuri Waterfilling</h1>
-      <h1 class="heading">Machine</h1>
+      <h1 class="panipuri-small-headings">Machine</h1>
     </div>
     <p class="sub-title">Hygenic system for eating panipuri.</p>
-    <a href="https://drive.google.com/uc?export=download&id=14dawCLVwChx6-dKUokwizl6HzNiQabNg"><button class="btn btn-danger btn-lg button" type="button" name="button">Catalog<i class="fas fa-download download-button"></i></button> </a> <br>
+    <a href="https://drive.google.com/uc?export=download&id=14dawCLVwChx6-dKUokwizl6HzNiQabNg"><button class="btn btn-danger btn-lg button" type="button" name="button">Catalog<i class="fas fa-download download-icon"></i></button> </a> <br>
     <img class="Four-Nozzle-Top-Image" src="images/4 Nozzle.png" alt="4-nozzle" width="100%;">
   </section>
 
-<!-- About Us -->
-<section id="aboutus-section">
-  <h1 class="sub-heading">About Us</h1>
-  <p style="font-size : 1.1rem; margin-bottom:20px; padding: 0 20px; text-align: justify;">Elite Designers is known for its manufacturing units that cater the basic needs of hygiene in the food industry such as the panipuri machine. We have a variety of panipuri machines available including 2 Nozzle, 3 Nozzle, 4 Nozzle and Counter-Style.</p>
-  <a href="https://goo.gl/maps/qu4p3zd3xRwo6jds7"> <button type="button" class="btn btn-danger aboutus-button"><i class="fas fa-map-marker-alt icons"></i>Directions</button> </a>
-  <a href="https://wa.me/919370944408"> <button type="button" class="btn btn-outline-danger aboutus-button"><i class="fab fa-whatsapp icons"></i>Whatsapp</button> </a>
-</section>
+  <!-- About Us -->
+  <section id="aboutus-section">
+    <h1 class="sub-heading">About Us</h1>
+    <p style="font-size : 1.1rem; margin-bottom:20px; padding: 0 20px; text-align: justify;">Elite Designers is known for its manufacturing units that cater the basic needs of hygiene in the food industry such as the panipuri machine. We have a
+      variety of panipuri machines available including 2 Nozzle, 3 Nozzle, 4 Nozzle and Counter-Style.</p>
+    <a href="https://goo.gl/maps/qu4p3zd3xRwo6jds7"> <button type="button" class="btn btn-danger gps-button"><i class="fas fa-map-marker-alt icons"></i>Directions</button> </a>
+    <a href="https://wa.me/919370944408"> <button type="button" class="btn btn-outline-danger" style="margin:0"><i class="fab fa-whatsapp icons"></i>Whatsapp</button> </a>
+  </section>
 
   <!-- Panipuri Machine Carousel -->
-  <section id="Panipuri-Machines-Carousel">
-    <h1 class="mali-heading">Panipuri Machine</h1>
+  <h1 class="section-heading">Panipuri Machine</h1>
 
+  <section id="Panipuri-Machines-Carousel">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
       <div class="carousel-inner">
 
@@ -129,8 +131,7 @@
             </ul>
           </div>
         </div>
-
-      </div>
+       </div>
 
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
         <span><i class="fas fa-chevron-left control-buttons"></i></span>
@@ -139,14 +140,13 @@
         <span><i class="fas fa-chevron-right control-buttons"></i></span>
       </a>
 
-    </div>
+    </div> <!-- End of Carousel -->
   </section>
 
 
   <!-- Panipuri Bottle Carousel -->
-
+<h1 class="section-heading">Panipuri Masala</h1>
   <section id="panipuri-bottle-carousel">
-    <h1 class="mali-heading">Panipuri Masala</h1>
 
     <div id="Panipuri-Masala" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
       <div class="carousel-inner">
@@ -188,114 +188,105 @@
       <a class="carousel-control-next" href="#Panipuri-Masala" role="button" data-bs-slide="next">
         <span><i class="fas fa-chevron-right control-buttons"></i></span>
       </a>
+
     </div>
   </section>
 
   <!-- YouTube Section -->
-<section id="YouTube-Section">
-  <h1 class="mali-heading">YouTube Videos</h1>
+  <h1 class="section-heading">YouTube Videos</h1>
+  <section id="YouTube-Section">
+    <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/XQNy0DznV-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/9k4B5w-nSe4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/mMxmx1bSES4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/hc4ftVnJkZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/0_srPfzQWns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
 
-  <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/XQNy0DznV-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-  <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/9k4B5w-nSe4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-  <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/mMxmx1bSES4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-  <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/hc4ftVnJkZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-
-  <iframe class="youtube-video" width="auto" height="188px" src="https://www.youtube.com/embed/0_srPfzQWns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-</section>
-
-<!-- Features Section -->
-<section id="features-section">
+  <!-- Features Section -->
 <h1 class="sub-heading">Why Us?</h1>
-<div id="features">
-  <div class="row">
-    <div class="col-sm-12 col-lg-4 feature-div">
-      <i class="fas fa-star fa-3x feature-icon"></i>
-      <h3 class="feature-title">Best Quality</h3>
-      <p class="feature-description">We provide the best quality to our customers.</p>
+  <section id="features-section">
+      <div class="row">
+        <div class="col-sm-12 col-lg-4 feature-div">
+          <i class="fas fa-star fa-3x feature-icon"></i>
+          <h3 class="feature-title">Best Quality</h3>
+          <p class="feature-description">We provide the best quality to our customers.</p>
+        </div>
+
+        <div class="col-sm-12 col-lg-4 feature-div">
+          <i class="fas fa-clock fa-3x feature-icon"></i>
+          <h3 class="feature-title">Timely Delivery</h3>
+          <p class="feature-description">We value the precious time of our customers.</p>
+        </div>
+
+        <div class="col-sm-12 col-lg-4">
+          <i class="far fa-laugh-beam fa-3x feature-icon"></i>
+          <h3 class="feature-title">Positive Records</h3>
+          <p class="feature-description">We have positive records from our previous clients.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact-us-section">
+    <h1 class="sub-heading">Contact Us</h1>
+    <p class="contact-description" style="font-size:1.1rem; color:grey; margin-bottom:20px;">We may love to hear from you and answer some of the following question you may have.</p>
+
+    <div class="contact-form">
+      <div class="mb-3">
+        <input type="text" class="form-control" id="form-name" placeholder="Name">
+      </div>
+
+      <div class="mb-3">
+        <input type="email" class="form-control" id="form-email" placeholder="Email">
+      </div>
+
+      <div class="mb-3">
+        <input type="text" class="form-control" id="form-mobile" placeholder="Mobile">
+      </div>
+
+      <div class="mb-3">
+        <textarea class="form-control" rows="8" cols="20" id="form-comment" placeholder="Comment"></textarea>
+      </div>
+
+      <a href="">
+        <div class="d-grid">
+          <button class="btn btn-success" type="button">Submit</button>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer-Section -->
+  <section id="footer-section">
+
+    <img class="logo-image" src="images/logopng.png" alt="logo-png" width="200px"> <br>
+
+    <div class="footer-div">
+
+      <div class="footer-content">
+        <i class="fas fa-home" style="margin: 0 10px"></i> <span>Address : </span>
+        <p style="margin: 0 0 0 40px;">Plot No. 654, Saw Mill Area, Lashkari Bagh, Nagpur-440017.</p>
+      </div>
+
+      <div class="footer-content">
+        <i class="fas fa-phone-alt" style="margin: 0 10px"></i> <span>Mobile : </span>
+        <p style="margin: 0 0 0 40px">+91-9370944407</p>
+        <p style="margin: 0 0 0 40px">+91-9370944408</p>
+      </div>
+
+      <div class="footer-content">
+        <i class="fas fa-envelope" style="margin: 0 10px"></i> <span>Email : </span>
+        <p style="margin: 0 0 0 40px">info@elitedesigners.in</p>
+      </div>
+
+      <div class="footer-content" style="margin-bottom:0">
+        <i class="fas fa-globe" style="margin: 0 10px"></i> <span>Website : </span>
+        <p style="margin: 0 0 0 40px">www.elite-designers.in</p>
+      </div>
+
     </div>
 
-    <div class="col-sm-12 col-lg-4 feature-div">
-      <i class="fas fa-clock fa-3x feature-icon"></i>
-      <h3 class="feature-title">Timely Delivery</h3>
-      <p class="feature-description">We value the precious time of our customers.</p>
-    </div>
-
-    <div class="col-sm-12 col-lg-4 feature-div">
-      <i class="far fa-laugh-beam fa-3x feature-icon"></i>
-      <h3 class="feature-title">Positive Records</h3>
-      <p class="feature-description">We have positive records from our previous clients.</p>
-    </div>
-  </div>
-</div>
-</section>
-
-<!-- Contact Us Section -->
-<section id="contact-us-section">
-  <h1 class="contact-heading">Contact Us</h1>
-  <p class="contact-description" style="font-size:1.1rem; color:grey; margin:0;">We may love to hear from you and answer some of the following question you may have.</p>
-  <div class="contact-form">
-
-    <div class="mb-3">
-      <input type="text" class="form-control" id="form-name" placeholder="Name">
-    </div>
-
-    <div class="mb-3">
-      <input type="email" class="form-control" id="form-email" placeholder="Email">
-    </div>
-
-    <div class="mb-3">
-      <input type="text" class="form-control" id="form-mobile" placeholder="Mobile">
-    </div>
-
-    <div class="mb-3">
-      <textarea  class="form-control" rows="8" cols="20" id="form-comment" placeholder="Comment"></textarea>
-    </div>
-
-    <a href="">
-    <div class="d-grid">
-      <button class="btn btn-success" type="button">Submit</button>
-    </div>
-    </a>
-  </div>
-</section>
-
-
-
-<!-- Footer-Section -->
-<section id="footer-section">
-
-<img class="logo-image" src="images/Logopng.png" alt="logo-png" width="250px"> <br>
-
-<div class="footer-div">
-
-<div class="footer-content">
-  <i class="fas fa-home" style="margin: 0 10px"></i> <span>Address : </span>
-  <p style="margin: 0 0 0 40px;">Plot No. 654, Saw Mill Area, Lashkari Bagh, Nagpur-440017.</p>
-</div>
-<div class="footer-content">
-  <i class="fas fa-phone-alt" style="margin: 0 10px"></i> <span>Mobile : </span>
-  <p style="margin: 0 0 0 40px">+91-9370944407</p>
-  <p style="margin: 0 0 0 40px">+91-9370944408</p>
-</div>
-<div class="footer-content">
-  <i class="fas fa-envelope" style="margin: 0 10px"></i> <span>Email : </span>
-  <p style="margin: 0 0 0 40px">info@elitedesigners.in</p>
-</div>
-<div class="footer-content" style="margin-bottom:0">
-  <i class="fas fa-globe" style="margin: 0 10px"></i> <span>Website : </span>
-  <p style="margin: 0 0 0 40px">www.elite-designers.in</p>
-</div>
-</div>
-<p style="font-size:0.6875rem; margin-top: 20px; margin-bottom:0; color:#838383;">©2020 Elite Designers | Designed by Sukhdeep.</p>
-</section>
+  </section>
 
 </body>
 
