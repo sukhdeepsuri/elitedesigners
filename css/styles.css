@@ -14,30 +14,33 @@ h1 {
 
 p {
   color: #8f8f8f;
-  margin: 0 0 50px;
+  margin: 0;
   }
 
 a {
   text-decoration: none;
-  }
+}
 
-.mali-heading {
+.section-heading {
   color: #808080;
   font-size: 2.5rem;
-  font-family: "Mali";
-  margin-bottom: 50px;
+  font-family: "Montserrat";
+  margin-bottom: 20px;
+}
+
+.sub-heading {
+  font-family: "Merriweather";
+  font-size : 2rem;
+  margin-bottom: 15px;
 }
 
 .mynavbar {
   margin-bottom: 50px;
 }
 
-#hero-area {
-  margin-bottom: 50px;
-}
 
 /* Panipuri-Big-Title */
-.heading {
+.panipuri-small-headings {
   font-family: "Montserrat";
 }
 
@@ -47,18 +50,6 @@ a {
   font-family: "Merriweather";
   margin: 15px auto;
 }
-/* ------------------*/
-#aboutus-section {
-  margin-bottom: 50px;
-}
-
-.button {
-  margin-bottom: 50px;
-}
-
-.download-button {
-  margin-left: 8px;
-}
 
 .sub-title {
   font-size: 131.25%;
@@ -66,21 +57,30 @@ a {
   margin: 1rem 0 2rem;
 }
 
-.sub-heading {
-  font-family: "Merriweather";
-  font-size : 2rem;
-  margin-bottom: 15px;
+.button {
+  margin-bottom: 50px;
 }
 
-.aboutus-button {
-  margin-right: 10px;
+.download-icon {
+  margin-left: 8px;
+}
+/* ------------------*/
+
+/* About-Us Section*/
+#aboutus-section {
+  margin: 50px 0;
+}
+
+.gps-button {
+  margin-right: 15px;
 }
 
 .icons {
   margin-right: 5px;
 }
+/* ------------------*/
 
-/* Sliding Carousel */
+/* Panipuri Sliding Carousel */
 #Panipuri-Machines-Carousel {
   margin: 0px auto 50px;
 }
@@ -126,11 +126,11 @@ a {
 .control-buttons {
   color: #989898
 }
-
+/* ------------------*/
 
 /* Panipuri Bottle Masala */
 #panipuri-bottle-carousel {
-  margin: 20px auto 50px;
+  margin-bottom : 50px;
 }
 
 .masala-naming {
@@ -144,16 +144,13 @@ a {
 }
 
 /* YouTube Section */
-
 .youtube-video {
   margin-bottom: 50px;
 }
 
 /* Features */
-
-#features {
-  padding: 50px;
-  padding-top: 30px;
+#features-section {
+  padding: 25px 0 50px;
 }
 
 .feature-icon {
@@ -165,11 +162,7 @@ a {
 }
 
 .feature-title {
-  margin: 15px auto 4px;
-}
-
-.feature-description {
-  margin: 0;
+  margin: 15px auto 6px;
 }
 
 .feature-div {
@@ -179,17 +172,7 @@ a {
 /* Contact Form Section */
 #contact-us-section {
   background-color: #f5f5f5;
-  padding: 20px 20px 0;
-}
-
-.contact-form {
-  padding: 20px;
-}
-
-.contact-heading {
-  font-family: "Merriweather";
-  font-size : 2rem;
-  margin-bottom: 10px;
+  padding: 30px;
 }
 
 .form-control::placeholder {
